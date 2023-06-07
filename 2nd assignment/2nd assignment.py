@@ -2,7 +2,7 @@
 import json
 
 #Opening the json file in read mode
-with open('2nd assignment\ex5.json', 'r') as file:
+with open('ex5.json', 'r') as file:
     ex5 = json.load(file)
 
 #Showing the data in the json file and adding a new batter named "Coffee" for the donut with name "Old Fashioned"
@@ -27,7 +27,7 @@ for i in ex5:
         break
     
 #Writing the updated data back to the file
-with open('2nd assignment\ex5.json', 'w') as file:
+with open('ex5.json', 'w') as file:
     json.dump(ex5, file,indent=4)        
 
 

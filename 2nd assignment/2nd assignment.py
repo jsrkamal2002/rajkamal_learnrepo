@@ -10,18 +10,25 @@ for i in ex5:
     if i['name'] == 'Old Fashioned':
         x=i['batters']['batter']
         
+        # Getting the id from the last batter in the list
+        for id in x:
+            id=id['id']
+            last_id=id
+            
+        new_id=int(last_id)+1
+        
         print("\nThe data in the json file ('Batter') is:")
         print(x)
         
         print("\nAppending Coffee to the batter list:")
-        x.append({'id': '1005', 'type': 'Coffee'})
+        x.append({'id': str(new_id), 'type': 'Coffee'})
         print(x)
         print("\n")
         break
     
 #Writing the updated data back to the file
 with open('2nd assignment\ex5.json', 'w') as file:
-    json.dump(ex5, file)        
+    json.dump(ex5, file,indent=4,sort_keys=True)        
 
 
 

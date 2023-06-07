@@ -2,7 +2,7 @@
 import json
 
 #Opening the json file in read mode
-with open('2nd assignment\org.json', 'r') as file:
+with open('2nd assignment\ex5.json', 'r') as file:
     ex5 = json.load(file)
 
 #Showing the data in the json file and adding a new batter named "Coffee" for the donut with name "Old Fashioned"

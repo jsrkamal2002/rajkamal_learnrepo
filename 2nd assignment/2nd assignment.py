@@ -28,7 +28,7 @@ for i in ex5:
     
 #Writing the updated data back to the file
 with open('2nd assignment\ex5.json', 'w') as file:
-    json.dump(ex5, file,indent=4,sort_keys=True)        
+    json.dump(ex5, file,indent=4)        
 
 
 

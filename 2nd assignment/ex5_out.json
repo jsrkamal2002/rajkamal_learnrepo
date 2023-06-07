@@ -1,5 +1,9 @@
 [
     {
+        "id": "0001",
+        "type": "donut",
+        "name": "Cake",
+        "ppu": 0.55,
         "batters": {
             "batter": [
                 {
@@ -20,9 +24,6 @@
                 }
             ]
         },
-        "id": "0001",
-        "name": "Cake",
-        "ppu": 0.55,
         "topping": [
             {
                 "id": "5001",
@@ -52,10 +53,13 @@
                 "id": "5004",
                 "type": "Maple"
             }
-        ],
-        "type": "donut"
+        ]
     },
     {
+        "id": "0002",
+        "type": "donut",
+        "name": "Raised",
+        "ppu": 0.55,
         "batters": {
             "batter": [
                 {
@@ -64,9 +68,6 @@
                 }
             ]
         },
-        "id": "0002",
-        "name": "Raised",
-        "ppu": 0.55,
         "topping": [
             {
                 "id": "5001",
@@ -88,10 +89,13 @@
                 "id": "5004",
                 "type": "Maple"
             }
-        ],
-        "type": "donut"
+        ]
     },
     {
+        "id": "0003",
+        "type": "donut",
+        "name": "Old Fashioned",
+        "ppu": 0.55,
         "batters": {
             "batter": [
                 {
@@ -108,9 +112,6 @@
                 }
             ]
         },
-        "id": "0003",
-        "name": "Old Fashioned",
-        "ppu": 0.55,
         "topping": [
             {
                 "id": "5001",
@@ -128,7 +129,6 @@
                 "id": "5004",
                 "type": "Maple"
             }
-        ],
-        "type": "donut"
+        ]
     }
 ]

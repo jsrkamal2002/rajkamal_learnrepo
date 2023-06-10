@@ -7,7 +7,7 @@ with open('2nd assignment\ex5.json', 'r') as file:
 
 #Showing the data in the json file and adding a new batter named "Coffee" for the donut with name "Old Fashioned"
 for i in ex5:
-    if i['name'] == 'Old Fashioned' and i['name'] == 'Old Fashioned':
+    if i['name'] == 'Old Fashioned' and i['type'] == 'donut':
         x=i['batters']['batter']
         
         # Getting the id from the last batter in the list

@@ -1,1 +1,4 @@
 git.txt
+VENV/
+VENV/*
+__pycache__/

@@ -26,3 +26,11 @@ def printModData():
 # Defining the main function
 if __name__=='__main__':
     app.run(debug=True,port=80)
+    
+    
+"""
+Question:
+Deploy the previous two assignments on a flask api and we should be able to run this by calling.
+/api/printHello
+/api/modifyRecepie
+"""

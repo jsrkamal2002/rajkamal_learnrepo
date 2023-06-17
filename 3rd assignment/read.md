@@ -28,3 +28,11 @@ pip install flask
 - Created second_assignment.py file to do the second assignment functions
 - Imported the second_assignment.py file to flask_app.py
 - Created two routes in flask_app.py file
+
+# Demo
+
+## Check it out
+
+- [Print "Hello World!!"](https://flask.jsrkamal.in/api/printHello)
+- [Original Recipe](https://flask.jsrkamal.in/api/originalRecepie)
+- [Modify Recipe](https://flask.jsrkamal.in/api/modifiedRecepie)

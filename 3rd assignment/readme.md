@@ -44,4 +44,4 @@ pip install flask
 - I created a subdomain [flask.jsrkamal.in](https://flask.jsrkamal.in) and pointed it to my home lab server
 - I have a HTTPD reverse proxy server running on my home lab server
 - I have created a docker container of the assignment 3
-- I have a docker container running on my home lab server
+- Then I Started the docker container running on my home lab server
